@@ -1,0 +1,8 @@
+Feature: Design log in page
+
+Scenario: Check email or phone and password textfields 
+	Given i am in facebook log in page
+	When i click on login button with blank email or phone text field
+	Then incorrect email address error displayed
+	And log in or sign up to facebook button displayed
+
